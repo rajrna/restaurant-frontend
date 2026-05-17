@@ -10,6 +10,68 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-stormy-teal-50: #eafafa;
+  --color-stormy-teal-100: #d5f5f6;
+  --color-stormy-teal-200: #abeced;
+  --color-stormy-teal-300: #82e2e3;
+  --color-stormy-teal-400: #58d8da;
+  --color-stormy-teal-500: #2eced1;
+  --color-stormy-teal-600: #25a5a7;
+  --color-stormy-teal-700: #1c7c7d;
+  --color-stormy-teal-800: #125354;
+  --color-stormy-teal-900: #09292a;
+  --color-stormy-teal-950: #061d1d;
+
+  --color-deep-crimson-50: #fbeaea;
+  --color-deep-crimson-100: #f6d5d5;
+  --color-deep-crimson-200: #eeaaaa;
+  --color-deep-crimson-300: #e58080;
+  --color-deep-crimson-400: #dc5656;
+  --color-deep-crimson-500: #d42b2b;
+  --color-deep-crimson-600: #a92323;
+  --color-deep-crimson-700: #7f1a1a;
+  --color-deep-crimson-800: #551111;
+  --color-deep-crimson-900: #2a0909;
+  --color-deep-crimson-950: #1e0606;
+
+  --color-champagne-mist-50: #faf3ea;
+  --color-champagne-mist-100: #f6e7d5;
+  --color-champagne-mist-200: #eccfac;
+  --color-champagne-mist-300: #e3b782;
+  --color-champagne-mist-400: #d99f59;
+  --color-champagne-mist-500: #d0882f;
+  --color-champagne-mist-600: #a66c26;
+  --color-champagne-mist-700: #7d511c;
+  --color-champagne-mist-800: #533613;
+  --color-champagne-mist-900: #2a1b09;
+  --color-champagne-mist-950: #1d1307;
+
+  --color-dark-wine-50: #fbeaea;
+  --color-dark-wine-100: #f6d5d5;
+  --color-dark-wine-200: #eeabaa;
+  --color-dark-wine-300: #e58280;
+  --color-dark-wine-400: #dc5856;
+  --color-dark-wine-500: #d42e2b;
+  --color-dark-wine-600: #a92523;
+  --color-dark-wine-700: #7f1c1a;
+  --color-dark-wine-800: #551211;
+  --color-dark-wine-900: #2a0909;
+  --color-dark-wine-950: #1e0606;
+
+  --color-coffee-bean-50: #f6f0ee;
+  --color-coffee-bean-100: #ede0de;
+  --color-coffee-bean-200: #dcc2bc;
+  --color-coffee-bean-300: #caa39b;
+  --color-coffee-bean-400: #b98579;
+  --color-coffee-bean-500: #a76658;
+  --color-coffee-bean-600: #865246;
+  --color-coffee-bean-700: #643d35;
+  --color-coffee-bean-800: #432923;
+  --color-coffee-bean-900: #211412;
+  --color-coffee-bean-950: #170e0c;
+
+  --font-heading:
+    var(--font-custom-restaurant), sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
