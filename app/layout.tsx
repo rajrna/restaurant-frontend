@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
-import {
-  Geist,
-  Geist_Mono,
-} from "next/font/google";
+import { Figtree } from "next/font/google";
 import "./globals.css";
 import { myCustomFont } from "./fonts";
+import { cn } from "@/lib/utils";
+
+const figtree = Figtree({
+  subsets: ["latin"],
+  variable: "--font-sans",
+});
 
 export const metadata: Metadata = {
   title: "HK's Fastfood",
@@ -18,6 +21,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+    // <html
+    //   lang="en"
+    //   className={cn(
+    //     myCustomFont.variable,
+    //     "font-sans",
+    //     figtree.variable,
+    //   )}
+    // >
     <html
       lang="en"
       className={`${myCustomFont.variable}`}
