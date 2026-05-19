@@ -75,7 +75,7 @@ export default function Home() {
         </div>
         <div className="flex justify-end">
           <Button className="bg-coffee-bean-950 text-champagne-mist-50 hover:bg-coffee-bean-900 px-6 py-2 text-xs font-bold uppercase tracking-widest rounded-full">
-            <Link href="/dashboard">
+            <Link href="/menu">
               Ready To Order
             </Link>
           </Button>
@@ -108,8 +108,8 @@ export default function Home() {
               <div className="w-full mt-12 md:mt-16 border-t border-coffee-bean-950 overflow-hidden relative h-[40vh] md:h-[55vh]">
                 <Image
                   src={item.image}
-                  fill // Uses absolute positioning to fill the container nicely during transitions
-                  priority={item.id === "momo"} // Prioritize loading the first item image
+                  fill 
+                  priority={item.id === "momo"} 
                   alt={`Photo of ${item.title}`}
                   className="object-cover w-full h-full"
                 />
