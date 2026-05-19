@@ -5,6 +5,8 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 import MomoLanding from "@/public/momo-landing.jpg";
+import ChowmeinLanding from "@/public/chowmein-landing.jpg";
+import ThuppaLanding from "@/public/thuppa-landing.jpg";
 
 import {
   Carousel,
@@ -22,20 +24,20 @@ const CAROUSEL_ITEMS = [
     image: MomoLanding, // Replace with your static imports or paths
   },
   {
-    id: "noodles",
-    title: "NOODLES",
+    id: "chowmein",
+    title: "CHOWMEIN",
     subtitle: "Our Best Recipe",
     description:
-      "Ramu is a Japanese company founded in 1999, specializing in instant noodles and home sushi-making kits. Made with high-quality ingredients and authentic recipes.",
-    image: MomoLanding,
+      "Chowmein with various assortment options",
+    image: ChowmeinLanding,
   },
   {
-    id: "sushi",
-    title: "SUSHI",
-    subtitle: "Fresh & Hand-Rolled",
+    id: "thuppa",
+    title: "THUPPA",
+    subtitle: "Hot and tasty",
     description:
-      "Sourced daily and prepared by master chefs. Experience the perfect balance of seasoned vinegar rice and pristine seafood cuts made fresh to order.",
-    image: MomoLanding,
+      "Sourced daily and prepared by master chefs.",
+    image: ThuppaLanding,
   },
 ];
 export default function Home() {
